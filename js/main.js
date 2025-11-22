@@ -36,13 +36,13 @@ const artworks = [
     {
         title: "Kureiji Ollie",
         description: "Hololive ID Vtuber",
-        fileUrl: "https://drive.google.com/file/d/1fahBQnUVD-_dPYzBT9T0JYGL5q6q8WBT/view",
+        fileUrl: "https://drive.google.com/file/d/13f3BdN1P-oxCwbgAX79wybxBIIMubCaf/view",
         type: "image"
     },
     {
         title: "King Argentine",
         description: "Triple Crown Winner from Indonesia",
-        fileUrl: "https://drive.google.com/file/d/1YKNWK2x36KLqgT1zLZiq8Si9QouSO_UF/view",
+        fileUrl: "https://drive.google.com/file/d/18_Fq0o1UZT7oRBQ2fXNxziSqtbZOsRmt/view",
         type: "image"
     },
 ];
@@ -627,3 +627,4 @@ console.log('Portfolio website loaded successfully!');
 console.log('To add new projects, use: addProject(title, description, imageUrl, githubUrl, [tags])');
 console.log('To add new artwork, use: addArtwork(title, imageUrl)');
 console.log('To add new certificates, use: addCertificate(title, issuer, date, fileUrl, [skills], credentialUrl)');
+
