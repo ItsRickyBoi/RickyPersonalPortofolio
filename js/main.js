@@ -40,11 +40,18 @@ const artworks = [
         type: "image"
     },
     {
-        title: "King Argentine",
-        description: "Triple Crown Winner from Indonesia",
-        fileUrl: "https://drive.google.com/file/d/18_Fq0o1UZT7oRBQ2fXNxziSqtbZOsRmt/view",
+        title: "Amanda x Toshi",
+        description: "Fanart for Amanda Brownies & Toshiba",
+        fileUrl: "https://drive.google.com/file/d/1-s31MYTmFCRoi5kfxrLYQGpp_zQQ0OlI/view",
         type: "image"
     },
+    {
+        title: "Maomao",
+        description: "Fanart for maomao from the apothecary diaries",
+        fileUrl: "https://drive.google.com/file/d/1XFGoetl1tDdGY6a1zNKlwPOF7dFBQBqO/view",
+        type: "image"
+    },
+
 ];
 
 // Function to convert Google Drive image URL to direct preview URL
@@ -600,31 +607,18 @@ function addCertificate(title, issuer, date, fileUrl, skills, credentialUrl = "#
     }
 }
 
-// Initialize everything when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded - starting initialization');
 
     loadProjects();
     loadCertificates();
-    loadArtworks(); // Add this line
+    loadArtworks();
 });
 
-// Example usage (uncomment to test):
-// addProject(
-//     'New Project Title',
-//     'Description of your new project',
-//     'https://via.placeholder.com/400x250',
-//     'https://github.com/yourusername/newproject',
-//     ['JavaScript', 'Bootstrap']
-// );
-
-// addArtwork(
-//     'Character Design 4',
-//     'https://via.placeholder.com/400x500'
-// );
 
 console.log('Portfolio website loaded successfully!');
 console.log('To add new projects, use: addProject(title, description, imageUrl, githubUrl, [tags])');
 console.log('To add new artwork, use: addArtwork(title, imageUrl)');
 console.log('To add new certificates, use: addCertificate(title, issuer, date, fileUrl, [skills], credentialUrl)');
+
 
