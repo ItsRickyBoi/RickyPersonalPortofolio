@@ -9,6 +9,20 @@ let pageCount = 0;
 // GitHub Projects Data
 const githubProjects = [
     {
+        title: "Tracker Mabar VIP",
+        description: "Tracker Mabar VIP untuk streamer",
+        repo: "https://github.com/ItsRickyBoi/Mabar-VIP-Tracker",
+        tags: ["HTML", "CSS", "Javascript"],
+        githubUrl: "https://github.com/ItsRickyBoi/Mabar-VIP-Tracker"
+    },
+    {
+        title: "Japanese Kana Learning",
+        description: "Web app untuk belajar hiragana dan katakana",
+        repo: "https://github.com/ItsRickyBoi/Kana_Learning",
+        tags: ["HTML", "CSS", "Javascript"],
+        githubUrl: "https://github.com/ItsRickyBoi/Kana_Learning"
+    },
+    {
         title: "HR-EMS",
         description: "Modern, responsive web application designed for basic HR administrative duties. It implements full CRUD operations on employee records using a PHP API and a MySQL database for persistent storage.",
         repo: "ItsRickyBoi/HR_EMS",
